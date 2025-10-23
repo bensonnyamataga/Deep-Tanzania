@@ -126,7 +126,7 @@
                         <span><i class="fas fa-tree"></i> Ancient Baobabs</span>
                         <span><i class="fas fa-binoculars"></i> Bird Watching</span>
                     </div>
-                    <a href="safari Moshi" class="btn btn-primary">Explore Tarangire</a>
+                    <a href="#" class="btn btn-primary">Explore Tarangire</a>
                 </div>
             </div>
             
