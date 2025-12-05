@@ -665,34 +665,7 @@
                         </div>
                         <span>Google</span>
                     </div>
-                    <div class="travolo-language-switcher travolo-desktop-language-switcher">
-                        <div class="travolo-current-language" id="travolo-current-language">
-                            <span class="fi fi-us"></span>
-                            <span>EN</span>
-                            <i class="fas fa-chevron-down" style="font-size: 12px;"></i>
-                        </div>
-                        <div class="travolo-language-dropdown" id="travolo-language-dropdown">
-                            <div class="travolo-language-option active" data-lang="en">
-                                <span class="fi fi-us"></span>
-                                <span>English</span>
-                            </div>
-                            <div class="travolo-language-option" data-lang="fr">
-                                <span class="fi fi-fr"></span>
-                                <span>Français</span>
-                            </div>
-                            <div class="travolo-language-option" data-lang="de">
-                                <span class="fi fi-de"></span>
-                                <span>Deutsch</span>
-                            </div>
-                            <div class="travolo-language-option" data-lang="es">
-                                <span class="fi fi-es"></span>
-                                <span>Español</span>
-                            </div>
-                            <div class="travolo-language-option" data-lang="it">
-                                <span class="fi fi-it"></span>
-                                <span>Italiano</span>
-                            </div>
-                        </div>
+                    
                     </div>
                 </div>
             </div>
