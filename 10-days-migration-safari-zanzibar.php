@@ -8,8 +8,8 @@
     <meta name="keywords" content="10 days migration safari Zanzibar, wildebeest migration and beach, Tanzania safari and Zanzibar, luxury migration safari with beach, wildlife and beach combination">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
-   <script src="script.js"></script>
+   <link rel="stylesheet" href="style/style.css">
+   <script src="script/script.js"></script>
 </head>
 <body>
 
