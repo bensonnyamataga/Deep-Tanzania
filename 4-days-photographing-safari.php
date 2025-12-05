@@ -266,720 +266,776 @@
     </div>
 </section>
 
-<!-- Airport Transfer Section -->
-<section class="section airport-transfer-section">
-    <div class="container">
-        <div class="section-title">
-            <span class="subtitle">Seamless Arrival</span>
-            <h2>Airport Transfer Services</h2>
-            <p>Complimentary airport transfers for a smooth start to your photography safari adventure</p>
-        </div>
-        
-        <div class="transfer-grid">
-            <div class="transfer-card">
-                <div class="transfer-icon">
-                    <i class="fas fa-plane-arrival"></i>
-                </div>
-                <h3>Arrival Transfer</h3>
-                <p>We'll meet you at Kilimanjaro International Airport (JRO) with a warm welcome and comfortable transfer to your Arusha accommodation.</p>
-                <ul class="transfer-features">
-                    <li><i class="fas fa-check"></i> Personalized meet & greet</li>
-                    <li><i class="fas fa-check"></i> Refreshments upon arrival</li>
-                    <li><i class="fas fa-check"></i> Safari briefing en route</li>
-                    <li><i class="fas fa-check"></i> Hotel check-in assistance</li>
-                </ul>
-            </div>
-            
-            <div class="transfer-card">
-                <div class="transfer-icon">
-                    <i class="fas fa-plane-departure"></i>
-                </div>
-                <h3>Departure Transfer</h3>
-                <p>After your safari concludes, we ensure timely transfer back to the airport with ample time for check-in procedures.</p>
-                <ul class="transfer-features">
-                    <li><i class="fas fa-check"></i> Hotel pick-up service</li>
-                    <li><i class="fas fa-check"></i> Flight time confirmation</li>
-                    <li><i class="fas fa-check"></i> Airport assistance</li>
-                    <li><i class="fas fa-check"></i> Farewell refreshments</li>
-                </ul>
-            </div>
-            
-            <div class="transfer-card highlight">
-                <div class="transfer-icon">
-                    <i class="fas fa-info-circle"></i>
-                </div>
-                <h3>Important Information</h3>
-                <p><strong>Arrival Time:</strong> We recommend arriving at least one day before your safari begins to accommodate any flight delays.</p>
-                <p><strong>Flight Details:</strong> Please share your flight itinerary at least 7 days before arrival for seamless coordination.</p>
-                <p><strong>Complimentary Service:</strong> Airport transfers are included in your safari package at no additional cost.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Safari Preparation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #75682c;
+            --secondary: #d1b464;
+            --dark: #2c3e50;
+            --light: #f8f9fa;
+            --white: #ffffff;
+            --text: #6c757d;
+        }
 
-<!-- Hot Air Balloon Safari Section -->
-<section class="section balloon-safari-section">
-    <div class="container">
-        <div class="section-title">
-            <span class="subtitle">Aerial Photography</span>
-            <h2>Hot Air Balloon Safari Experience</h2>
-            <p>Elevate your photography with a breathtaking balloon safari over the Serengeti plains</p>
-        </div>
-        
-        <div class="balloon-content">
-            <div class="balloon-description">
-                <div class="balloon-highlight">
-                    <h3>Capture Africa from Above</h3>
-                    <p>Add an unforgettable aerial photography experience to your safari. Float silently above the Serengeti at sunrise, capturing wildlife and landscapes from a unique perspective that few photographers ever experience.</p>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .subtitle {
+            display: block;
+            color: var(--primary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--dark);
+            margin-bottom: 20px;
+        }
+
+        .section-title p {
+            font-size: 1.1rem;
+            color: var(--text);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Airport Transfer Section */
+        .airport-transfer-section {
+            background: var(--white);
+        }
+
+        .transfer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .transfer-card {
+            background: var(--light);
+            padding: 40px 30px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(117, 104, 44, 0.1);
+        }
+
+        .transfer-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .transfer-card.highlight {
+            background: linear-gradient(135deg, var(--primary) 0%, #8a7a3a 100%);
+            color: white;
+        }
+
+        .transfer-card.highlight h3,
+        .transfer-card.highlight p {
+            color: white;
+        }
+
+        .transfer-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .transfer-card.highlight .transfer-icon {
+            color: var(--secondary);
+        }
+
+        .transfer-card h3 {
+            color: var(--dark);
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .transfer-features p {
+            padding: 8px 0;
+            text-align: left;
+        }
+
+        /* Balloon Safari Section */
+        .balloon-safari-section {
+            background: var(--light);
+        }
+
+        .balloon-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .balloon-highlight {
+            margin-bottom: 40px;
+        }
+
+        .balloon-highlight h3 {
+            color: var(--dark);
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        .experience-timeline {
+            margin-top: 30px;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 30px;
+            align-items: flex-start;
+        }
+
+        .timeline-marker {
+            background: var(--primary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .timeline-content h4 {
+            color: var(--dark);
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+
+        .booking-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 1px solid rgba(117, 104, 44, 0.1);
+        }
+
+        .booking-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--light);
+        }
+
+        .booking-header h4 {
+            color: var(--dark);
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-align: right;
+        }
+
+        .price span {
+            display: block;
+            font-size: 1rem;
+            color: var(--text);
+            font-weight: 400;
+        }
+
+        .booking-features {
+            margin-bottom: 25px;
+        }
+
+        .feature {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--light);
+        }
+
+        .feature:last-child {
+            border-bottom: none;
+        }
+
+        .booking-note {
+            background: #fff9e6;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            font-size: 0.9rem;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .booking-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .btn-text {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: color 0.3s ease;
+        }
+
+        .btn-text:hover {
+            color: var(--secondary);
+        }
+
+        .btn-text i {
+            margin-left: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-text:hover i {
+            transform: translateX(3px);
+        }
+
+        /* Preparation Section */
+        .preparation-section {
+            background: var(--white);
+        }
+
+        .preparation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .prep-card {
+            background: var(--light);
+            padding: 40px 30px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border: 1px solid rgba(117, 104, 44, 0.1);
+            position: relative;
+        }
+
+        .prep-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .prep-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .prep-card h3 {
+            color: var(--dark);
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+        }
+
+        .gear-list,
+        .packing-list {
+            text-align: left;
+        }
+
+        .gear-category,
+        .packing-category {
+            margin-bottom: 20px;
+        }
+
+        .gear-category h4,
+        .packing-category h4 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            border-bottom: 1px solid rgba(117, 104, 44, 0.2);
+            padding-bottom: 5px;
+        }
+
+        .gear-category p,
+        .packing-category p {
+            padding: 6px 0;
+        }
+
+        .checklist {
+            text-align: left;
+        }
+
+        .check-item {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(117, 104, 44, 0.1);
+        }
+
+        .check-item:last-child {
+            border-bottom: none;
+        }
+
+        /* New image styles */
+        .prep-image {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .prep-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Guidance Section */
+        .guidance-section {
+            background: var(--light);
+        }
+
+        .guidance-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .guidance-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(117, 104, 44, 0.1);
+        }
+
+        .guidance-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .guidance-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .guidance-card h4 {
+            color: var(--dark);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .guidance-cta {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            margin-top: 30px;
+            border: 1px solid rgba(117, 104, 44, 0.1);
+        }
+
+        .guidance-cta p {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .balloon-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .booking-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+            
+            .price {
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .transfer-grid,
+            .preparation-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .guidance-features {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .timeline-marker {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+            
+            .transfer-card,
+            .prep-card,
+            .guidance-card {
+                padding: 30px 20px;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Airport Transfer Section -->
+    <section class="section airport-transfer-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Seamless Arrival</span>
+                <h2>Airport Transfer Services</h2>
+                <p>Complimentary airport transfers for a smooth start to your photography safari adventure</p>
+            </div>
+            
+            <div class="transfer-grid">
+                <div class="transfer-card">
+                    <div class="transfer-icon">
+                        <i class="fas fa-plane-arrival"></i>
+                    </div>
+                    <h3>Arrival Transfer</h3>
+                    <p>We'll meet you at Kilimanjaro International Airport (JRO) with a warm welcome and comfortable transfer to your Arusha accommodation.</p>
+                    <div class="transfer-features">
+                        <p>Personalized meet & greet</p>
+                        <p>Refreshments upon arrival</p>
+                        <p>Safari briefing en route</p>
+                        <p>Hotel check-in assistance</p>
+                    </div>
                 </div>
                 
-                <div class="experience-timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <i class="fas fa-moon"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>4:30 AM - Morning Pick-up</h4>
-                            <p>Early transfer from your lodge to the balloon launch site with coffee and light refreshments</p>
-                        </div>
+                <div class="transfer-card">
+                    <div class="transfer-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <h3>Departure Transfer</h3>
+                    <p>After your safari concludes, we ensure timely transfer back to the airport with ample time for check-in procedures.</p>
+                    <div class="transfer-features">
+                        <p>Hotel pick-up service</p>
+                        <p>Flight time confirmation</p>
+                        <p>Airport assistance</p>
+                        <p>Farewell refreshments</p>
+                    </div>
+                </div>
+                
+                <div class="transfer-card highlight">
+                    <div class="transfer-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <h3>Important Information</h3>
+                    <p><strong>Arrival Time:</strong> We recommend arriving at least one day before your safari begins to accommodate any flight delays.</p>
+                    <p><strong>Flight Details:</strong> Please share your flight itinerary at least 7 days before arrival for seamless coordination.</p>
+                    <p><strong>Complimentary Service:</strong> Airport transfers are included in your safari package at no additional cost.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hot Air Balloon Safari Section -->
+    <section class="section balloon-safari-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Aerial Photography</span>
+                <h2>Hot Air Balloon Safari Experience</h2>
+                <p>Elevate your photography with a breathtaking balloon safari over the Serengeti plains</p>
+            </div>
+            
+            <div class="balloon-content">
+                <div class="balloon-description">
+                    <div class="balloon-highlight">
+                        <h3>Capture Africa from Above</h3>
+                        <p>Add an unforgettable aerial photography experience to your safari. Float silently above the Serengeti at sunrise, capturing wildlife and landscapes from a unique perspective that few photographers ever experience.</p>
                     </div>
                     
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <i class="fas fa-sun"></i>
+                    <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>4:30 AM - Morning Pick-up</h4>
+                                <p>Early transfer from your lodge to the balloon launch site with coffee and light refreshments</p>
+                            </div>
                         </div>
-                        <div class="timeline-content">
-                            <h4>5:30 AM - Sunrise Flight</h4>
-                            <p>One-hour flight during magical golden hour - perfect for stunning aerial photography</p>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <i class="fas fa-sun"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>5:30 AM - Sunrise Flight</h4>
+                                <p>One-hour flight during magical golden hour - perfect for stunning aerial photography</p>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <i class="fas fa-utensils"></i>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>7:00 AM - Bush Breakfast</h4>
+                                <p>Traditional champagne breakfast celebration in the heart of the wilderness</p>
+                            </div>
                         </div>
-                        <div class="timeline-content">
-                            <h4>7:00 AM - Bush Breakfast</h4>
-                            <p>Traditional champagne breakfast celebration in the heart of the wilderness</p>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>8:30 AM - Flight Certificate</h4>
-                            <p>Receive your commemorative balloon flight certificate as a special souvenir</p>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>8:30 AM - Flight Certificate</h4>
+                                <p>Receive your commemorative balloon flight certificate as a special souvenir</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="balloon-booking">
-                <div class="booking-card">
-                    <div class="booking-header">
-                        <h4>Balloon Safari Add-On</h4>
-                        <div class="price">$599 <span>per person</span></div>
-                    </div>
-                    <div class="booking-features">
-                        <div class="feature">
-                            <i class="fas fa-check"></i>
-                            <span>One-hour balloon flight with professional pilot</span>
+                
+                <div class="balloon-booking">
+                    <div class="booking-card">
+                        <div class="booking-header">
+                            <h4>Balloon Safari Add-On</h4>
+                            <div class="price">$599 <span>per person</span></div>
                         </div>
-                        <div class="feature">
-                            <i class="fas fa-check"></i>
-                            <span>Champagne bush breakfast in the wild</span>
+                        <div class="booking-features">
+                            <div class="feature">
+                                <span>One-hour balloon flight with professional pilot</span>
+                            </div>
+                            <div class="feature">
+                                <span>Champagne bush breakfast in the wild</span>
+                            </div>
+                            <div class="feature">
+                                <span>Commemorative flight certificate</span>
+                            </div>
+                            <div class="feature">
+                                <span>All transfers included</span>
+                            </div>
+                            <div class="feature">
+                                <span>Full insurance coverage</span>
+                            </div>
                         </div>
-                        <div class="feature">
-                            <i class="fas fa-check"></i>
-                            <span>Commemorative flight certificate</span>
+                        <div class="booking-note">
+                            <p><strong>Available:</strong> Day 2 or 3 of your safari<br>
+                            <strong>Note:</strong> Weather dependent - full refund if cancelled</p>
                         </div>
-                        <div class="feature">
-                            <i class="fas fa-check"></i>
-                            <span>All transfers included</span>
+                        <div class="booking-actions">
+                            <a href="#contact" class="btn btn-primary">Add to My Safari</a>
+                            <a href="#gallery" class="btn-text">View Aerial Photos <i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="feature">
-                            <i class="fas fa-check"></i>
-                            <span>Full insurance coverage</span>
-                        </div>
-                    </div>
-                    <div class="booking-note">
-                        <p><strong>Available:</strong> Day 2 or 3 of your safari<br>
-                        <strong>Note:</strong> Weather dependent - full refund if cancelled</p>
-                    </div>
-                    <div class="booking-actions">
-                        <a href="#contact" class="btn btn-primary">Add to My Safari</a>
-                        <a href="#gallery" class="btn-text">View Aerial Photos <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Photography Preparation Section -->
-<section class="section preparation-section">
-    <div class="container">
-        <div class="section-title">
-            <span class="subtitle">Get Ready</span>
-            <h2>Photography Preparation & Gear Guide</h2>
-            <p>Essential information to help you prepare for the ultimate photography safari experience</p>
-        </div>
-        
-        <div class="preparation-grid">
-            <div class="prep-card">
-                <div class="prep-icon">
-                    <i class="fas fa-camera"></i>
-                </div>
-                <h3>Essential Photography Gear</h3>
-                <div class="gear-list">
-                    <div class="gear-category">
-                        <h4>Camera Equipment</h4>
-                        <ul>
-                            <li>DSLR or Mirrorless Camera Body</li>
-                            <li>Telephoto Lens (200-600mm)</li>
-                            <li>Wide-angle Lens (16-35mm)</li>
-                            <li>Extra Batteries (3-4)</li>
-                            <li>Memory Cards (128GB+)</li>
-                        </ul>
-                    </div>
-                    <div class="gear-category">
-                        <h4>Support Equipment</h4>
-                        <ul>
-                            <li>Bean Bag for vehicle stability</li>
-                            <li>Lens Cleaning Kit</li>
-                            <li>Camera Rain Cover</li>
-                            <li>Power Bank & Chargers</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="prep-card">
-                <div class="prep-icon">
-                    <i class="fas fa-suitcase"></i>
-                </div>
-                <h3>Packing Essentials</h3>
-                <div class="packing-list">
-                    <div class="packing-category">
-                        <h4>Clothing</h4>
-                        <ul>
-                            <li>Neutral-colored clothing (khaki, green)</li>
-                            <li>Layered clothing for temperature changes</li>
-                            <li>Comfortable walking shoes</li>
-                            <li>Sun protection (hat, sunscreen)</li>
-                        </ul>
-                    </div>
-                    <div class="packing-category">
-                        <h4>Accessories</h4>
-                        <ul>
-                            <li>Binoculars for wildlife spotting</li>
-                            <li>Headlamp or flashlight</li>
-                            <li>Personal medications</li>
-                            <li>Travel documents</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="prep-card">
-                <div class="prep-icon">
-                    <i class="fas fa-lightbulb"></i>
-                </div>
-                <h3>Pre-Safari Checklist</h3>
-                <div class="checklist">
-                    <div class="check-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Practice with your camera equipment</span>
-                    </div>
-                    <div class="check-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Purchase comprehensive travel insurance</span>
-                    </div>
-                    <div class="check-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Check visa requirements for Tanzania</span>
-                    </div>
-                    <div class="check-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Consult doctor about vaccinations</span>
-                    </div>
-                    <div class="check-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Share flight details with us</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Photography Guidance Section -->
-<section class="section guidance-section">
-    <div class="container">
-        <div class="section-title">
-            <span class="subtitle">Expert Support</span>
-            <h2>Professional Photography Guidance</h2>
-            <p>Our photography-focused guides ensure you capture stunning images throughout your safari</p>
-        </div>
-        
-        <div class="guidance-features">
-            <div class="guidance-card">
-                <div class="guidance-icon">
-                    <i class="fas fa-sun"></i>
-                </div>
-                <h4>Light & Composition</h4>
-                <p>Master golden hour photography, backlighting techniques, and creative composition for dramatic wildlife shots</p>
+    <!-- Photography Preparation Section -->
+    <section class="section preparation-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Get Ready</span>
+                <h2>Photography Preparation & Gear Guide</h2>
+                <p>Essential information to help you prepare for the ultimate photography safari experience</p>
             </div>
             
-            <div class="guidance-card">
-                <div class="guidance-icon">
-                    <i class="fas fa-paw"></i>
+            <div class="preparation-grid">
+                <div class="prep-card">
+                    <div class="prep-image">
+                        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop" alt="Photography Gear">
+                    </div>
+                    <div class="prep-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Essential Photography Gear</h3>
+                    <div class="gear-list">
+                        <div class="gear-category">
+                            <h4>Camera Equipment</h4>
+                            <p>DSLR or Mirrorless Camera Body</p>
+                            <p>Telephoto Lens (200-600mm)</p>
+                            <p>Wide-angle Lens (16-35mm)</p>
+                            <p>Extra Batteries (3-4)</p>
+                            <p>Memory Cards (128GB+)</p>
+                        </div>
+                        <div class="gear-category">
+                            <h4>Support Equipment</h4>
+                            <p>Bean Bag for vehicle stability</p>
+                            <p>Lens Cleaning Kit</p>
+                            <p>Camera Rain Cover</p>
+                            <p>Power Bank & Chargers</p>
+                        </div>
+                    </div>
                 </div>
-                <h4>Animal Behavior</h4>
-                <p>Learn to predict animal movements and position yourself for the perfect action shots</p>
-            </div>
-            
-            <div class="guidance-card">
-                <div class="guidance-icon">
-                    <i class="fas fa-car-side"></i>
+                
+                <div class="prep-card">
+                    <div class="prep-image">
+                        <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=400&fit=crop" alt="Packing Essentials">
+                    </div>
+                    <div class="prep-icon">
+                        <i class="fas fa-suitcase"></i>
+                    </div>
+                    <h3>Packing Essentials</h3>
+                    <div class="packing-list">
+                        <div class="packing-category">
+                            <h4>Clothing</h4>
+                            <p>Neutral-colored clothing (khaki, green)</p>
+                            <p>Layered clothing for temperature changes</p>
+                            <p>Comfortable walking shoes</p>
+                            <p>Sun protection (hat, sunscreen)</p>
+                        </div>
+                        <div class="packing-category">
+                            <h4>Accessories</h4>
+                            <p>Binoculars for wildlife spotting</p>
+                            <p>Headlamp or flashlight</p>
+                            <p>Personal medications</p>
+                            <p>Travel documents</p>
+                        </div>
+                    </div>
                 </div>
-                <h4>Vehicle Positioning</h4>
-                <p>Strategic vehicle placement for optimal angles and lighting conditions throughout the day</p>
-            </div>
-            
-            <div class="guidance-card">
-                <div class="guidance-icon">
-                    <i class="fas fa-cogs"></i>
+                
+                <div class="prep-card">
+                    <div class="prep-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop" alt="Pre-Safari Checklist">
+                    </div>
+                    <div class="prep-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Pre-Safari Checklist</h3>
+                    <div class="checklist">
+                        <div class="check-item">
+                            <span>Practice with your camera equipment</span>
+                        </div>
+                        <div class="check-item">
+                            <span>Purchase comprehensive travel insurance</span>
+                        </div>
+                        <div class="check-item">
+                            <span>Check visa requirements for Tanzania</span>
+                        </div>
+                        <div class="check-item">
+                            <span>Consult doctor about vaccinations</span>
+                        </div>
+                        <div class="check-item">
+                            <span>Share flight details with us</span>
+                        </div>
+                    </div>
                 </div>
-                <h4>Camera Settings</h4>
-                <p>Real-time advice on shutter speed, aperture, and ISO settings for different wildlife scenarios</p>
             </div>
         </div>
-        
-        <div class="guidance-cta">
-            <p>Our guides are not just wildlife experts - they're passionate photographers who understand how to help you capture extraordinary images.</p>
-            <a href="#contact" class="btn btn-primary">Book Your Photography Safari</a>
+    </section>
+
+    <!-- Photography Guidance Section -->
+    <section class="section guidance-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Expert Support</span>
+                <h2>Professional Photography Guidance</h2>
+                <p>Our photography-focused guides ensure you capture stunning images throughout your safari</p>
+            </div>
+            
+            <div class="guidance-features">
+                <div class="guidance-card">
+                    <div class="guidance-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h4>Light & Composition</h4>
+                    <p>Master golden hour photography, backlighting techniques, and creative composition for dramatic wildlife shots</p>
+                </div>
+                
+                <div class="guidance-card">
+                    <div class="guidance-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h4>Animal Behavior</h4>
+                    <p>Learn to predict animal movements and position yourself for the perfect action shots</p>
+                </div>
+                
+                <div class="guidance-card">
+                    <div class="guidance-icon">
+                        <i class="fas fa-car-side"></i>
+                    </div>
+                    <h4>Vehicle Positioning</h4>
+                    <p>Strategic vehicle placement for optimal angles and lighting conditions throughout the day</p>
+                </div>
+                
+                <div class="guidance-card">
+                    <div class="guidance-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h4>Camera Settings</h4>
+                    <p>Real-time advice on shutter speed, aperture, and ISO settings for different wildlife scenarios</p>
+                </div>
+            </div>
+            
+            <div class="guidance-cta">
+                <p>Our guides are not just wildlife experts - they're passionate photographers who understand how to help you capture extraordinary images.</p>
+                <a href="#contact" class="btn btn-primary">Book Your Photography Safari</a>
+            </div>
         </div>
-    </div>
-</section>
-
-
-<style>
-/* Airport Transfer Section */
-.airport-transfer-section {
-    background: var(--white);
-}
-
-.transfer-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.transfer-card {
-    background: var(--light);
-    padding: 40px 30px;
-    border-radius: 12px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid rgba(117, 104, 44, 0.1);
-}
-
-.transfer-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.transfer-card.highlight {
-    background: linear-gradient(135deg, var(--primary) 0%, #8a7a3a 100%);
-    color: white;
-}
-
-.transfer-card.highlight h3,
-.transfer-card.highlight p {
-    color: white;
-}
-
-.transfer-icon {
-    font-size: 3rem;
-    color: var(--primary);
-    margin-bottom: 20px;
-}
-
-.transfer-card.highlight .transfer-icon {
-    color: var(--secondary);
-}
-
-.transfer-card h3 {
-    color: var(--dark);
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-}
-
-.transfer-features {
-    list-style: none;
-    margin-top: 20px;
-    text-align: left;
-}
-
-.transfer-features li {
-    padding: 8px 0;
-    display: flex;
-    align-items: center;
-}
-
-.transfer-features li i {
-    color: var(--primary);
-    margin-right: 10px;
-    font-size: 0.9rem;
-}
-
-/* Balloon Safari Section */
-.balloon-safari-section {
-    background: var(--light);
-}
-
-.balloon-content {
-    display: grid;
-    grid-template-columns: 1fr 400px;
-    gap: 50px;
-    align-items: start;
-}
-
-.balloon-highlight {
-    margin-bottom: 40px;
-}
-
-.balloon-highlight h3 {
-    color: var(--dark);
-    margin-bottom: 15px;
-    font-size: 1.8rem;
-}
-
-.experience-timeline {
-    margin-top: 30px;
-}
-
-.timeline-item {
-    display: flex;
-    margin-bottom: 30px;
-    align-items: flex-start;
-}
-
-.timeline-marker {
-    background: var(--primary);
-    color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
-    flex-shrink: 0;
-}
-
-.timeline-content h4 {
-    color: var(--dark);
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-}
-
-.booking-card {
-    background: white;
-    border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    border: 1px solid rgba(117, 104, 44, 0.1);
-}
-
-.booking-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid var(--light);
-}
-
-.booking-header h4 {
-    color: var(--dark);
-    margin: 0;
-    font-size: 1.5rem;
-}
-
-.price {
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--primary);
-    text-align: right;
-}
-
-.price span {
-    display: block;
-    font-size: 1rem;
-    color: var(--text);
-    font-weight: 400;
-}
-
-.booking-features {
-    margin-bottom: 25px;
-}
-
-.feature {
-    display: flex;
-    align-items: center;
-    padding: 12px 0;
-    border-bottom: 1px solid var(--light);
-}
-
-.feature:last-child {
-    border-bottom: none;
-}
-
-.feature i {
-    color: var(--primary);
-    margin-right: 15px;
-    font-size: 1rem;
-}
-
-.booking-note {
-    background: #fff9e6;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 25px;
-    font-size: 0.9rem;
-    border-left: 4px solid var(--secondary);
-}
-
-.booking-actions {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.btn-text {
-    color: var(--primary);
-    text-decoration: none;
-    font-weight: 600;
-    text-align: center;
-    transition: color 0.3s ease;
-}
-
-.btn-text:hover {
-    color: var(--secondary);
-}
-
-.btn-text i {
-    margin-left: 5px;
-    transition: transform 0.3s ease;
-}
-
-.btn-text:hover i {
-    transform: translateX(3px);
-}
-
-/* Preparation Section */
-.preparation-section {
-    background: var(--white);
-}
-
-.preparation-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.prep-card {
-    background: var(--light);
-    padding: 40px 30px;
-    border-radius: 12px;
-    text-align: center;
-    transition: transform 0.3s ease;
-    border: 1px solid rgba(117, 104, 44, 0.1);
-}
-
-.prep-card:hover {
-    transform: translateY(-5px);
-}
-
-.prep-icon {
-    font-size: 3rem;
-    color: var(--primary);
-    margin-bottom: 20px;
-}
-
-.prep-card h3 {
-    color: var(--dark);
-    margin-bottom: 25px;
-    font-size: 1.5rem;
-}
-
-.gear-list,
-.packing-list {
-    text-align: left;
-}
-
-.gear-category,
-.packing-category {
-    margin-bottom: 20px;
-}
-
-.gear-category h4,
-.packing-category h4 {
-    color: var(--primary);
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-    border-bottom: 1px solid rgba(117, 104, 44, 0.2);
-    padding-bottom: 5px;
-}
-
-.gear-category ul,
-.packing-category ul {
-    list-style: none;
-}
-
-.gear-category ul li,
-.packing-category ul li {
-    padding: 6px 0;
-    position: relative;
-    padding-left: 15px;
-}
-
-.gear-category ul li:before,
-.packing-category ul li:before {
-    content: '•';
-    color: var(--primary);
-    position: absolute;
-    left: 0;
-}
-
-.checklist {
-    text-align: left;
-}
-
-.check-item {
-    display: flex;
-    align-items: center;
-    padding: 12px 0;
-    border-bottom: 1px solid rgba(117, 104, 44, 0.1);
-}
-
-.check-item:last-child {
-    border-bottom: none;
-}
-
-.check-item i {
-    color: var(--primary);
-    margin-right: 15px;
-    font-size: 1.1rem;
-}
-
-/* Guidance Section */
-.guidance-section {
-    background: var(--light);
-}
-
-.guidance-features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    margin: 50px 0;
-}
-
-.guidance-card {
-    background: white;
-    padding: 40px 30px;
-    border-radius: 12px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid rgba(117, 104, 44, 0.1);
-}
-
-.guidance-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.guidance-icon {
-    font-size: 3rem;
-    color: var(--primary);
-    margin-bottom: 20px;
-}
-
-.guidance-card h4 {
-    color: var(--dark);
-    margin-bottom: 15px;
-    font-size: 1.3rem;
-}
-
-.guidance-cta {
-    text-align: center;
-    background: white;
-    padding: 40px;
-    border-radius: 12px;
-    margin-top: 30px;
-    border: 1px solid rgba(117, 104, 44, 0.1);
-}
-
-.guidance-cta p {
-    font-size: 1.1rem;
-    margin-bottom: 25px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Responsive Design */
-@media (max-width: 992px) {
-    .balloon-content {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-    
-    .booking-header {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-    
-    .price {
-        text-align: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .transfer-grid,
-    .preparation-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .guidance-features {
-        grid-template-columns: 1fr;
-    }
-    
-    .timeline-item {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .timeline-marker {
-        margin-right: 0;
-        margin-bottom: 15px;
-    }
-    
-    .transfer-card,
-    .prep-card,
-    .guidance-card {
-        padding: 30px 20px;
-    }
-}
-</style>
-
+    </section>
+</body>
 
 <!-- Safari Packages Section -->
 <section class="section safari-packages">
