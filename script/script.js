@@ -72,3 +72,26 @@ function closePopup() {
     document.getElementById('safariPopup').style.display = 'none';
 }
 
+ // FAQ Toggle Functionality with unique class names
+    document.addEventListener('DOMContentLoaded', function() {
+        const safariFaqQuestions = document.querySelectorAll('.safari-faq-question');
+        
+        safariFaqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const toggle = question.querySelector('.safari-faq-toggle');
+                
+                // Toggle active class
+                answer.classList.toggle('active');
+                
+                // Change toggle symbol and add rotation effect
+                if (answer.classList.contains('active')) {
+                    toggle.textContent = '−';
+                    toggle.classList.add('rotate');
+                } else {
+                    toggle.textContent = '+';
+                    toggle.classList.remove('rotate');
+                }
+            });
+        });
+    });
